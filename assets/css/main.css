@@ -1,0 +1,271 @@
+/******Colors *****/
+.dark-blue-btn {
+    background-color: #000346;
+}
+.badge.badge-v2.bg-pink , .bg-pink, .btn-pink {
+    background-color: #ed449f;
+}
+.xs-btn:hover {
+    color: #FFFFFF;
+    background-color: #ed449f;
+}
+
+.xs-btn.dark-blue-btn:after {
+    border-top: 100px solid #ed449f;
+}
+
+.xs-btn.dark-blue-btn:before {
+
+    border-bottom: 100px solid #ed449f;
+}
+
+.pink-btn {
+    background-color: #ed449f;
+}
+
+.xs-btn.pink-btn:after {
+    border-top: 100px solid #000346;
+}
+
+.xs-btn.pink-btn:before {
+
+    border-bottom: 100px solid #000346;
+}
+
+.xs-btn:hover i.pink{
+    color: #FFFFFF;
+}
+
+.pink{
+    color: #ed44a0;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+/********Colors End*********/
+.fundpress-welcome-content .fundpress-welcome-wraper .fundpress-welcome-title h2 {
+    font-size: 2.4em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.fundpress-welcome-content .fundpress-welcome-wraper .fundpress-welcome-title h1{
+    font-size: 4em;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.fundpress-welcome-content .fundpress-welcome-wraper .fundpress-welcome-title p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.fundpress-video-top-section {
+    padding: 30px 0 0px;
+}
+.xs-content-section-padding {
+    padding: 50px 0px;
+}
+
+/**********Nav Menu *******/
+.xs-menu-style-white {
+    background-color: #FFFFFF;
+}
+.fundpress-menu .xs-navs-button.left{
+    text-align: left;
+    width: 33.3333%;
+}
+.fundpress-menu .xs-navs-button.left .fundpress-icon-menu{
+    justify-content: flex-start;
+}
+.fundpress-header-main-version.color-navy-blue .fundpress-menu .nav-menu li a, .fundpress-header-main-version.color-navy-blue .fundpress-menu .fundpress-icon-menu li a, .fundpress-header-main-version.color-navy-blue .xs-navs-button .nav-menu li a, .fundpress-header-main-version.color-navy-blue .xs-navs-button .fundpress-icon-menu li a{
+    color: #ed449f;
+}
+.fundpress-menu .xs-navs-button .fundpress-icon-menu li a.xs-btn {
+    padding: 17px 25px;
+    color: #FFFFFF;
+    background-color: #000346;
+    border: 0;
+}
+.fundpress-menu .xs-navs-button {
+    width: 50%;
+    padding: 0 15px;
+    text-align: right;
+}
+@media (max-width: 992px){
+.fundpress-menu .xs-navs-button .fundpress-icon-menu li {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.fundpress-menu .xs-navs-button .fundpress-icon-menu li:last-child{
+    border: none;
+}
+.fundpress-menu .xs-navs-button.left {
+    text-align: left;
+    width: 100%;
+}
+.fundpress-menu .xs-navs-button.left .fundpress-icon-menu li {
+    border: none;
+    text-align: center;
+    padding-bottom: 0;
+}
+}
+/******Banner ******/
+.fundpress-welcome-content .fundpress-welcome-wraper .fundpress-welcome-title .xs-btn-wraper p {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px){
+.xs-welcome-content {
+    height: auto !important;
+    padding-top: 60px !important;
+}
+}
+/**************Banner end *****/
+
+/******support-charities ******/
+.support-charities-list-item {
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 15px 28px;
+}
+
+.support-charities-list-item:nth-child(even){
+    margin-left: 70px;
+    margin-right: 0;
+}
+/******support-charities End ******/
+
+/******support-startups ******/
+.support-startups-list-item p{
+    border: 1px solid #ed44a0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 50px;
+    color: #FFFFFF;
+}
+
+.support-startups-list-item:after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color: #ed44a0;
+    
+}
+
+.support-startups-list-item:last-child:after {
+    display: none;
+}
+/******support-startups End ******/
+
+/********Listing and tabs**********/
+.fundpress-item-header {
+    height: 227px;
+    overflow: hidden;
+}
+
+.fundpress-grid-item-content-v2 .fundpress-post-title {
+    font-size: 1.78em;
+}
+
+.fundpress-grid-item-content-v2 .fundpress-post-title:hover {
+    color: #ed44a0;
+}
+/********Listing and tabs end******/
+
+/***************/
+.long-lasting-funding-card-title {
+    padding: 30px;
+    color: #ed449f;
+}
+
+.long-lasting-funding-card-title h3 {
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.fundpress-icon-with-square-service {
+    background-color: #012270;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: unset;
+}
+
+.fundpress-icon-with-square-service h4 {
+    font-size: 1.42857em;
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+@media (max-width: 992px){
+.fundpress-square-service-section-para {
+    margin: 30px 140px 0 140px;
+}
+}
+
+.fundpress-square-service-section-para {
+    margin: 0;
+}
+/****Popular Projcts*****/
+.fundpress-heading-title-v3 h2 {
+    color: #ed449f;
+}
+.fundpress-heading-title-v3 h2 span{
+    color: #000000;
+}
+/****Popular Projcts end*****/
+
+/*******Back to top btn*********/
+.xs-back-to-top-btn {
+    background-color: #ed449f;
+}
+
+.xs-back-to-top-btn:hover {
+    background-color: #012270;
+}
+/*******Back to top btn end *********/
+
+/**************/
+.fundpress-popup-image video {
+display: block;
+}
+
+
+/*top section*/
+.top-section{
+    padding-top: 70px;
+}
+
+.top-down{
+    margin-top: 50px;
+}
+
+.vid-up{
+        margin-top: 26px;
+}

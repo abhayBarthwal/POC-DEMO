@@ -1,0 +1,677 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home Page - Power Of Circle</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CPoppins:200,400,500,600,700%7CPlayfair+Display:400,700i"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Icon foont list -->
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- isotope -->
+    <link rel="stylesheet" href="assets/css/isotope.css">
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- woocommerce -->
+    <link rel="stylesheet" href="assets/css/woocommerce.css">
+
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Clint custom css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<!-- modal -->
+<div class="modal fade bd-example-modal-lg xs-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="fundpress-tab-nav-v5">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#login" role="tab" data-toggle="tab">
+                            Login
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signup" role="tab" data-toggle="tab">
+                            Signup
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- fundpress-tab-nav-v3 -->
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fadeInRights show fade in active" id="login">
+                    <form action="#" method="POST" id="xs-login-form">
+                        <div class="xs-input-group-v2">
+                            <i class="icon icon-profile-male"></i>
+                            <input type="text" name="name" id="xs_user_login_name" class="xs-input-control"
+                                placeholder="Enter your username">
+                        </div>
+                        <div class="xs-input-group-v2">
+                            <i class="icon icon-key2"></i>
+                            <input type="password" name="name" id="xs_login_password" class="xs-input-control"
+                                placeholder="Enter your password">
+                        </div>
+                        <div class="xs-submit-wraper xs-mb-20">
+                            <input type="submit" name="submit" value="login now" id="xs_contact_get_action"
+                                class="btn btn-warning btn-block">
+                        </div>
+                        <p class="xs-mb-20">or</p>
+                        <div class="xs-submit-wraper xs-mb-20">
+                            <input type="submit" name="submit" value="Login with facebook account" id="xs_facebook"
+                                class="btn btn-info btn-block">
+                        </div>
+                        <div class="xs-submit-wraper">
+                            <input type="submit" name="submit" value="Login with twitter account" id="xs_twitter"
+                                class="btn btn-success btn-block">
+                        </div>
+                    </form>
+                </div><!-- tab-pane -->
+                <div role="tabpanel" class="tab-pane fadeInRights fade" id="signup">
+                    <form action="#" method="POST" id="xs-register-form">
+                        <div class="xs-input-group-v2">
+                            <i class="icon icon-profile-male"></i>
+                            <input type="text" name="name" id="xs_register_name" class="xs-input-control"
+                                placeholder="Enter your username">
+                        </div>
+                        <div class="xs-input-group-v2">
+                            <i class="icon icon-envelope2"></i>
+                            <input type="email" name="email" id="xs_register_email" class="xs-input-control"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="xs-input-group-v2">
+                            <i class="icon icon-key2"></i>
+                            <input type="password" name="name" id="xs_register_password" class="xs-input-control"
+                                placeholder="Enter your password">
+                        </div>
+                        <div class="xs-input-group-v2">
+                            <i class="icon icon-key2"></i>
+                            <input type="password" name="name" id="xs_register_repeat_pass" class="xs-input-control"
+                                placeholder="Enter your confirm password">
+                        </div>
+                        <div class="xs-submit-wraper xs-mb-20">
+                            <input type="submit" name="submit" value="login now" id="xs_register_get_action"
+                                class="btn btn-warning btn-block">
+                        </div>
+                        <p class="xs-mb-20">or</p>
+                        <div class="xs-submit-wraper xs-mb-20">
+                            <input type="submit" name="submit" value="Login with facebook account"
+                                id="xs_register_facebook" class="btn btn-info btn-block">
+                        </div>
+                        <div class="xs-submit-wraper">
+                            <input type="submit" name="submit" value="Login with twitter account"
+                                id="xs_register_twitter" class="btn btn-success btn-block">
+                        </div>
+                    </form>
+                </div><!-- tab-pane -->
+            </div><!-- tab-content -->
+        </div>
+    </div>
+</div><!-- End modal -->
+
+<body class="woocommerce">
+    <!--[if lt IE 10]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+    <div id="preloader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div><!-- #preloader -->
+    <!-- home section -->
+    <!-- header version inner menu -->
+    <header
+        class="xs-header-height xs-menu-style-white xs-menu-style-border fundpress-header-main-version color-navy-blue">
+        <div class="container">
+            <nav class="xs-menus fundpress-menu">
+                <div class="nav-header">
+                    <div class="nav-toggle"></div>
+                    <a class="nav-brand nav-logo" href="index.html">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                </div><!-- . END -->
+                <div class="nav-menus-wrapper">
+                    <div class="xs-logo-wraper">
+                        <a class="nav-brand xs-logo fundpress-logo-v2" href="index.html">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="xs-navs-button left">
+                        <ul class="xs-icon-with-text fundpress-icon-menu">
+
+                            <!-- <li class="d-block d-lg-none d-xl-block"><a href="#"
+                                    class="xs-btn round-btn dark-blue-btn">start a campaign</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="xs-navs-button">
+                        <ul class="xs-icon-with-text fundpress-icon-menu">
+                            <li><a href="#popular-project" class="pink">featured Project</a></li>
+                            <li><a href="#learnBetter" class="pink">Discover More</a></li>
+                            <!-- <li class="d-block d-lg-none d-lg-block"><a href="" data-toggle="modal"
+                                    data-target=".bd-example-modal-lg"
+                                    class="xs-btn xs-border-radius  dark-blue-btn "><i
+                                        class="fa fa-unlock-alt pink"></i>Log In</a></li> -->
+                        </ul>
+                    </div>
+
+                </div><!-- .nav-menus-wrapper END -->
+            </nav><!-- .xs-menus .fundpress-menu END -->
+        </div>
+    </header>
+    <!-- header version inner menu closed -->
+
+    <main class="xs-all-content-wrapper">
+    	<!-- Main statement -->
+    	<section class="xs-screen-height xs-welcome-section xs-bg fundpress-welcome-section top-section">
+	    	<div class="fundpress-video-top-section xs-navy-blue-bg">
+	            	<div class="fundpress-heading-title-v3 text-center wow fadeInUp" data-wow-duration="1s">
+	                    <div class="fundpress-heading-title-content top-down">
+	                        <h2 class="display-1">Next Major Disruptor in  <span>crowd funding</span></h2>
+	                        <h2>Launching Soon!</h2>
+	                    </div>
+	                </div><!-- section heading -->
+	            </div>
+        </section>
+
+    	<!-- Main Statement -->
+
+
+        <!-- welcome section -->
+        <section class="xs-screen-height xs-welcome-section xs-bg fundpress-welcome-section"
+            style="background-image: url(assets/images/welcome-bg-back-overlay.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="xs-welcome-content fundpress-welcome-content">
+                            <div class="xs-welcome-wraper fundpress-welcome-wraper">
+                                <div class="xs-welcome-title fundpress-welcome-title">
+                                    <h2 class="color-navy-blue">Social crowdfunding that does not stop </h2>
+                                    <h1 class="color-navy-blue">Giving</h1>
+                                    <p class="color-navy-blue">Unique way to give and receive that does not stop once
+                                        you pledge</p>
+                                    <p class="color-navy-blue">Pledge forward to project(s) of your choice and receive
+                                        rewards </p>
+                                    <p class="color-navy-blue">Our featured projects come with their own unique set of
+                                        Perks</p>
+                                    <div class="xs-btn-wraper text-center">
+                                        <p class="color-navy-blue">want to see how it all works?</p>
+                                        <a href="#learnBetter" class="xs-btn xs-border-radius dark-blue-btn">Book a live demo
+                                            now</a>
+
+                                    </div>
+                                </div>
+
+                            </div><!-- .xs-welcome-wraper .fundpress-welcome-wraper END -->
+                        </div><!-- .xs-welcome-content .fundpress-welcome-content END -->
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="xs-welcome-content">
+                            <div class="fundpress-animate text-center">
+                                <img src="assets/images/banner1.png" alt="">
+                                <div class="xs-btn-wraper">
+                                    <a href="#learnBetter" class="xs-btn xs-border-radius pink-btn">Learn More</a>
+                                    <a href="#learnBetter" class="xs-btn xs-border-radius pink-btn ">Learn More</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section> <!-- End welcome section -->
+        <section class="fundpress-video-popup-with-text">
+            <!-- video -->
+            <div class="fundpress-video-top-section xs-navy-blue-bg">
+            	<div class="fundpress-heading-title-v3 text-center wow fadeInUp vid-up" data-wow-duration="1s">
+                    <div class="fundpress-heading-title-content">
+                        <h2>A Platform Build For <span>Growth</span></h2>
+                        <p class="text-capitalize text-white">Get your project funded today</p>
+                    </div>
+                </div><!-- section heading -->
+            </div>
+
+            <div class="funpress-video-popup xs-margin-top xs-margin-minus">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-sm-12 col-lg-8 content-center">
+                            <div class="fundpress-popup-image xs-box-shadow wow fadeInUp" data-wow-duration="1s">
+                                <video autoplay="true" loop>
+                                    <source src="assets/video/about-video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <!-- <div class="xs-popup-content icon-position-center">
+                                    <a href="assets/video/about-video.mp4"
+                                        class="xs-video-popup full-round icon-identify-btn btn-pink xs-box-shadow xs-big-button"><i
+                                            class="fa fa-play"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section> <!-- video end -->
+
+        <section id="popular-project" class="waypoint-tigger xs-section-padding fundpress-popular-campaigns-v2" data-scrollax-parent="true">
+            <div class="container">
+                <div class="fundpress-heading-title-v3 text-center wow fadeInUp" data-wow-duration="1s">
+                    <div class="fundpress-heading-title-content">
+                        <h2>Popular <span>Projects</span></h2>
+                        <p class="text-capitalize">Get your project funded today with KynnecME </p>
+                    </div>
+                    <span class="parallax-title" data-scrollax="properties: { translateY: '-250px' }">Projcts</span>
+                </div><!-- section heading -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="fundpress-grid-item-content-v2 xs-mb-30 wow fadeInUp" data-wow-duration="1.2s">
+                            <div class="fundpress-item-header">
+                                <img src="assets/images/tuition-assistance.jpg" alt="" width="100%">
+                                <div class="xs-item-header-content">
+                                    <span class="badge badge-sm badge-v1 badge-pill badge-primary">$110000</span>
+                                </div>
+                            </div><!-- .fundpress-item-header END -->
+
+                            <div class="fundpress-item-content text-center border border-top-0">
+                                <div class="row xs-margin-0 justify-content-center xs-mb-20">
+                                    <div class="full-round fundpress-avatar">
+                                        <img src="assets/images/avatar_1.jpg" alt="">
+                                    </div>
+                                    <div class="xs-avatar-title">
+                                        <a href="#"><span>By</span>Tilta Hamid</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="d-block color-navy-blue fundpress-post-title">Pay University
+                                    Tuition</a>
+                                <p>I Am in my 2nd year obtaning my law degree at york and the last thing i want
+                                    post-graduation is paying off the hefty student loan.</p>
+
+                                <span class="xs-separetor"></span>
+
+                                <ul class="xs-list-with-content fundpress-list-item-content-v2">
+                                    <li class="xs-pie-chart-v2" data-percent="75">
+                                        <div class="icon-position-center">
+                                            <div class="xs-pie-chart-percent"></div>
+                                            <span>%</span>
+                                        </div>
+                                    </li>
+                                    <li>179<span>Backers</span></li>
+                                    <li>
+                                        <span
+                                            class="badge badge-sm badge-v3 font-weight-normal badge-pill xs-navy-blue-bg text-white mb-2">$<span
+                                                class="text-white number-percentage-count number-percentage"
+                                                data-value="110000" data-animation-duration="3500">0</span> </span>
+                                        <span
+                                            class="badge badge-sm badge-v3 badge-pill xs-navy-blue-bg text-uppercase text-white">Pledged</span>
+                                    </li>
+                                </ul>
+                            </div><!-- .fundpress-item-content END -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="fundpress-grid-item-content-v2 xs-mb-30 wow fadeInUp" data-wow-duration="1.4s">
+                            <div class="fundpress-item-header">
+                                <img src="assets/images/wed.jpg" alt="">
+                                <div class="xs-item-header-content">
+                                    <span class="badge badge-sm badge-v1 badge-pill badge-primary">$26000</span>
+                                </div>
+                            </div><!-- .fundpress-item-header END -->
+
+                            <div class="fundpress-item-content text-center border border-top-0">
+                                <div class="row xs-margin-0 justify-content-center xs-mb-20">
+                                    <div class="full-round fundpress-avatar">
+                                        <img src="assets/images/avatar_2.jpg" alt="">
+                                    </div>
+                                    <div class="xs-avatar-title">
+                                        <a href="#"><span>By</span>Frokost</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="d-block color-navy-blue fundpress-post-title">Save for My Wedding</a>
+                                <p>After 8 years of dating my best friend i have finaly taking that leap of faith to
+                                    make her my life's partner.</p>
+
+                                <span class="xs-separetor"></span>
+
+                                <ul class="xs-list-with-content fundpress-list-item-content-v2">
+                                    <li class="xs-pie-chart-v2" data-percent="62">
+                                        <div class="icon-position-center">
+                                            <div class="xs-pie-chart-percent"></div>
+                                            <span>%</span>
+                                        </div>
+                                    </li>
+                                    <li>109<span>Backers</span></li>
+                                    <li>
+                                        <span
+                                            class="badge badge-sm badge-v3 font-weight-normal badge-pill xs-navy-blue-bg text-white mb-2">$<span
+                                                class="text-white number-percentage-count number-percentage"
+                                                data-value="26000" data-animation-duration="3500">0</span> </span>
+                                        <span
+                                            class="badge badge-sm badge-v3 badge-pill xs-navy-blue-bg text-uppercase text-white">Pledged</span>
+                                    </li>
+                                </ul>
+                            </div><!-- .fundpress-item-content END -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="fundpress-grid-item-content-v2 xs-mb-30 wow fadeInUp" data-wow-duration="1.6s">
+                            <div class="fundpress-item-header">
+                                <img src="assets/images/watch.jpg" alt="">
+                                <div class="xs-item-header-content">
+                                    <span class="badge badge-sm badge-v1 badge-pill badge-primary">$15000</span>
+                                </div>
+                            </div><!-- .fundpress-item-header END -->
+
+                            <div class="fundpress-item-content text-center border border-top-0">
+                                <div class="row xs-margin-0 justify-content-center xs-mb-20">
+                                    <div class="full-round fundpress-avatar">
+                                        <img src="assets/images/avatar_3.jpg" alt="">
+                                    </div>
+                                    <div class="xs-avatar-title">
+                                        <a href="#"><span>By</span>Hannan Hamdy</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="d-block color-navy-blue fundpress-post-title">Jilio Wood
+                                    Bookshelf</a>
+                                <p>What adventures do you get yourself into everyday, but people with disability gets
+                                    into some pretty seriously.</p>
+
+                                <span class="xs-separetor"></span>
+
+                                <ul class="xs-list-with-content fundpress-list-item-content-v2">
+                                    <li class="xs-pie-chart-v2" data-percent="57">
+                                        <div class="icon-position-center">
+                                            <div class="xs-pie-chart-percent"></div>
+                                            <span>%</span>
+                                        </div>
+                                    </li>
+                                    <li>657<span>Backers</span></li>
+                                    <li>
+                                        <span
+                                            class="badge badge-sm badge-v3 font-weight-normal badge-pill xs-navy-blue-bg text-white mb-2">$<span
+                                                class="text-white number-percentage-count number-percentage"
+                                                data-value="15000" data-animation-duration="3500">0</span> </span>
+                                        <span
+                                            class="badge badge-sm badge-v3 badge-pill xs-navy-blue-bg text-uppercase text-white">Pledged</span>
+                                    </li>
+                                </ul>
+                            </div><!-- .fundpress-item-content END -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <!-- <section>
+
+                <div class="xs-content-section-padding xs-portfolio-section fundpress-portfolio-section">
+                    <div class="container">
+    
+                        <div class="xs-portfolio-isotope-grid">
+                           
+                            <div class="xs-portfolio-isotope-grid-item xs-padding-15 wow fadeInUp" data-wow-duration="1s">
+                                <a href="assets/images/gallery/gallery-6.jpg"
+                                    class=" xs-image-popup xs-box-shadow  fundpress-portfolio-grid-item">
+                                    <div class="xs-solid-overlay xs-bg-black"></div>
+                                    <img src="assets/images/gallery/gallery-6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="xs-portfolio-isotope-grid-item xs-padding-15">
+                                <a href="assets/images/gallery/gallery-7.jpg"
+                                    class=" xs-image-popup xs-box-shadow  fundpress-portfolio-grid-item wow fadeInUp" data-wow-duration="1.3s">
+                                    <div class="xs-solid-overlay xs-bg-black"></div>
+                                    <img src="assets/images/gallery/gallery-7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="xs-portfolio-isotope-grid-item xs-padding-15">
+                                <a href="assets/images/gallery/gallery-7.jpg"
+                                    class=" xs-image-popup xs-box-shadow  fundpress-portfolio-grid-item wow fadeInUp" data-wow-duration="1.6s">
+                                    <div class="xs-solid-overlay xs-bg-black"></div>
+                                    <img src="assets/images/gallery/gallery-7.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> --><!-- Photo Gallery section End -->
+            
+
+            <section class="xs-section-padding xs-gray-bg-2 fundpress-contact-us-section xs-contact-us-section"> <!-- Contact Form -->
+                <div id="learnBetter" class="container">
+                    <div class="fundpress-heading-title-v3 text-center wow fadeInUp" data-wow-duration="1s">
+                            <div class="fundpress-heading-title-content">
+                                <h2 class="text-uppercase font-weight-normal">Learn more about this new and exciting platform</h2>
+                                <p>Enter Your Name and Email address to learn more and postion yourself.</p>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-8 content-center">
+                                <div class="xs-contact-form-wraper">
+                                    <form action="#" method="POST" id="xs-contact-form">
+                                        <div class="row xs-margin-0 xs-mb-30">
+                                            <div class="col-md-6 xs-padding-0 xs-pr-15">
+                                                <div class="xs-input-group">
+                                                    <label for="xs_contact_name">Name</label>
+                                                    <div class="xs-input-group-addon">
+                                                        <i class="fa fa-user color-navy-blue xs-input-addon"></i>
+                                                        <input type="text" name="name" id="xs_contact_name" class="xs-input-control" placeholder="Enter your name...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 xs-padding-0 xs-pl-15">
+                                                <div class="xs-input-group">
+                                                    <label for="xs_contact_email">email</label>
+                                                    <div class="xs-input-group-addon">
+                                                        <i class="fa fa-envelope-o color-navy-blue xs-input-addon"></i>
+                                                        <input type="email" name="email" id="xs_contact_email" class="xs-input-control" placeholder="Enter your email...">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="xs-submit-wraper content-center">
+                                            <input type="submit" name="submit" value="get a query" id="xs_contact_submit" class="xs-submit-btn dark-blue-btn">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                </div><!-- section heading -->
+            </section>
+        <section>
+            <!-- Kynnecme Social Diffrerence section -->
+            <div class="container my-5">
+                <div class="fundpress-heading-title-v3 text-center wow fadeInUp" data-wow-duration="1s">
+                    <div class="fundpress-heading-title-content">
+                        <h2 class="text-uppercase font-weight-normal">Kynnecme Social Diffrerence </h2>
+                        <p class="text-uppercase">Simple. Easy. Rewarding.</p>
+                    </div>
+                </div><!-- section heading -->
+                <div class="row my-3">
+                    <div class="col-lg-6 p-3">
+                        <div class="row">
+                            <div class="social-diffrerence-text offset-2 col align-self-center">
+                                <p class="color-navy-blue font-weight-bold">Create long lasting funding through our
+                                    Circle Back Strategy</p>
+                            </div>
+                            <div class="social-diffrerence-icon col">
+                                <img class="img-fluid" width="100" src="assets/images/arrow-circle-icon.jpg"
+                                    alt="Circle Back Strategy" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-3">
+                        <div class="row">
+                            <div class="social-diffrerence-text offset-2 col align-self-center">
+                                <p class="color-navy-blue font-weight-bold">Our featured project allow you to earn Perks
+                                    for Pledges</p>
+                            </div>
+                            <div class="social-diffrerence-icon col">
+                                <img class="img-fluid" width="100" src="assets/images/gift-box-icon.jpg"
+                                    alt="Circle Back Strategy" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-3">
+                    <div class="col-lg-6 p-3">
+                        <div class="row">
+                            <div class="social-diffrerence-text offset-2 col align-self-center">
+                                <p class="color-navy-blue font-weight-bold">Back exciting project, Pledge forward once
+                                    and watch it circle back</p>
+                            </div>
+                            <div class="social-diffrerence-icon col">
+                                <img class="img-fluid" width="100" src="assets/images/hand-money-icon.jpg"
+                                    alt="Circle Back Strategy" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-3">
+                        <div class="row">
+                            <div class="social-diffrerence-text offset-2 col align-self-center">
+                                <p class="color-navy-blue font-weight-bold">Support Social initatives locally</p>
+                            </div>
+                            <div class="social-diffrerence-icon col">
+                                <img class="img-fluid" width="70" src="assets/images/map-pin-icon.jpg"
+                                    alt="Circle Back Strategy" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xs-btn-wraper text-center pb-5">
+                    <a href="#" class="xs-btn xs-border-radius dark-blue-btn">Discover more</a>
+
+                </div>
+            </div>
+        </section><!-- Kynnecme Social Diffrerence section End -->
+
+    </main>
+
+    <footer class="xs-footer-section xs-fixed-footer fundpress-footer-section">
+        <div class="fundpress-footer-top-layer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="fundpress-single-footer">
+                            <div class="xs-footer-logo">
+                                <a href="index.html">
+                                    <img src="assets/images/kynnecme-footer-logo.jpg" alt="" width="165">
+                                </a>
+                            </div>
+                            <!-- . END -->
+                            <ul class="xs-social-list fundpress-social-list">
+                                <li><a href="" class="color-facebook full-round"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="" class="color-twitter full-round"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="" class="color-dribbble full-round"><i class="fa fa-dribbble"></i></a>
+                                </li>
+                                <li><a href="" class="color-pinterest full-round"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                                <li><a href="" class="color-instagram full-round"><i class="fa fa-instagram"></i></a>
+                                </li>
+                            </ul><!-- .xs-social-list .fundpress-social-list END -->
+                        </div><!-- .fundpress-single-footer END -->
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="fundpress-single-footer">
+                            <div class="xs-footer-title">
+                                <h4 class="color-white">About</h4>
+                            </div><!-- .xs-footer-title END -->
+                            <nav class="xs-footer-menu">
+                                <ul>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="#">Investor Relations</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Press</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </nav><!-- .xs-footer-menu .xs-block-menu END -->
+                        </div><!-- .fundpress-single-footer END -->
+                    </div>
+                    <div class="col-md-3">
+                        <div class="fundpress-single-footer">
+                            <div class="xs-footer-title">
+                                <h4 class="color-white">Help</h4>
+                            </div><!-- .xs-footer-title END -->
+                            <nav class="xs-footer-menu">
+                                <ul>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="#">Funding Disclaimer</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Terms and conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </nav><!-- .xs-footer-menu .xs-block-menu END -->
+                        </div><!-- .fundpress-single-footer END -->
+                    </div>
+                </div>
+            </div>
+        </div><!-- .xs-footer-wraper .fundpress-footer-top-layer END -->
+        <div class="xs-footer-bottom-layer fundpress-footer-bottom">
+            <div class="container">
+                <div class="xs-footer-bottom-wraper">
+                    <div class="xs-copyright-text fundpress-copyright-text">
+                        <p>Powered By KynnecME</a>
+                        </p>
+                    </div>
+                    <div class="xs-back-to-top-wraper">
+                        <a href="#" class="xs-back-to-top full-round green-btn xs-back-to-top-btn show-last-pos">
+                            <i class="fa fa-angle-up"></i>
+                        </a>
+                    </div><!-- .xs-back-to-top-wraper END -->
+                </div>
+            </div>
+        </div><!-- .xs-footer-bottom-layer .fundpress-footer-bottom END -->
+    </footer>
+
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/Popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCy7becgYuLwns3uumNm6WdBYkBpLfy44k"></script>
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/spectragram.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/scrollax.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
